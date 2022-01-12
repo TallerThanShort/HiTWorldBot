@@ -15,8 +15,11 @@ module.exports = {
         .setFooter('HiT World 2t Bot')
 
         message.channel.send(playEmbed).then(sentEmbed => {
-            sentEmbed.react("👍")
-            sentEmbed.react("👎")
+            sentEmbed.react("⬅️")
+            sentEmbed.react("⬆️")
+            sentEmbed.react("➡️")
+            sentEmbed.react("⬇️")
+            sentEmbed.react("⚔️")
         });
     }
 }
