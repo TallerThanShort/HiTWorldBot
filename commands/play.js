@@ -10,7 +10,7 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: 'Idling', value: idle}
+            {name: 'Idling', value: bg + idle + '\n' + bg + bg + bg}
         )
         .setFooter('HiT World 2t Bot')
 
