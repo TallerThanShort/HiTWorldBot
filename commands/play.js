@@ -2,15 +2,17 @@ module.exports = {
     name: 'play',
     description: "this is the main play command",
     execute(message, args, Discord){
+        const bg = '⬛';
+        const attackLeft = '<:heroattackside:927785032507068478>';
+        const attackLWeapon = '<:heroattacksideweapon:927784955487076404>';
+        const idle = '<:heroidlefront:927784807042265108>';
         const playEmbed = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('<@' + message.author.id + ">'s Game")
+        .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: 'help', value: 'Displays this embed'},
-            {name: 'play', value: 'Starts a new game'},
-            {name: 'stop', value: 'Stops the users currently active game'},
-            {name: 'Saves', value: "The bot doesn't save game progress, but it does however save game items. **You can use this to your advantage**"}
+            {name: 'help', value: idle}
         )
+        .setFooter('HiT World 2t Bot')
 
         message.channel.send(playEmbed);
     }

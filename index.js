@@ -1,5 +1,5 @@
 const Discord = require('discord.js');
-const client = new Discord.Client({ shardCount: 2 });
+const client = new Discord.Client(/*{ shardCount: 2 }*/);
 const fs = require('fs');
 const prefix = 'hit!';
 
