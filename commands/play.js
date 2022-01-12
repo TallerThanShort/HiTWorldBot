@@ -10,10 +10,13 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: 'help', value: idle}
+            {name: 'Idling', value: idle}
         )
         .setFooter('HiT World 2t Bot')
 
-        message.channel.send(playEmbed);
+        message.channel.send(playEmbed).then(sentEmbed => {
+            sentEmbed.react("👍")
+            sentEmbed.react("👎")
+        });
     }
 }
