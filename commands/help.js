@@ -4,7 +4,8 @@ module.exports = {
     execute(message, args, Discord){
         const helpEmbed = new Discord.MessageEmbed()
         .setColor('RANDOM')
-        .setTitle('Commands')
+        .setAuthor('HiT World', 'https://media.discordapp.net/attachments/928430664943042560/931476784296386570/new-hit-logo.jpg?width=766&height=670', 'https://ckstudios.itch.io/hitworld')
+        .setTitle('COMMANDS')
         .addFields(
             {name: 'help', value: 'Displays this embed'},
             {name: 'play', value: 'Starts a new game'},

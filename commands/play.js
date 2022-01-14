@@ -10,7 +10,14 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: 'Idling', value: bg + idle + '\n' + bg + bg + bg}
+            {name: 'Idling', value: bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + idle + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg}
         )
         .setFooter('HiT World 2t Bot')
 
