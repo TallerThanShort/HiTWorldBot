@@ -6,11 +6,12 @@ module.exports = {
         const attackLeft = '<:heroattackside:927785032507068478>';
         const attackLWeapon = '<:heroattacksideweapon:927784955487076404>';
         const idle = '<:heroidlefront:927784807042265108>';
+        var position = 'idle';
         const playEmbed = new Discord.MessageEmbed()
         .setColor('RANDOM')
         .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: '\n', value: bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            {name: position, value: bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + idle + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
