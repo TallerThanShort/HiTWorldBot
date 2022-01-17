@@ -13,7 +13,7 @@ for(const file of commandFiles){
 }
 
 client.once('ready', async () => {
-    await client.user.setActivity("HiT World on Discord", { type: 'COMPETING', url: "https://ckstudios.itch.io/hitworld" });
+    await client.user.setActivity("HiT World", { type: 'COMPETING', url: "https://ckstudios.itch.io/hitworld" });
     console.log('time to play HiT World')
 })
 

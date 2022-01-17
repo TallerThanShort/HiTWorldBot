@@ -29,6 +29,22 @@ module.exports = {
             sentEmbed.react("➡️")
             sentEmbed.react("⬇️")
             sentEmbed.react("⚔️")
+           /* const filter = (reaction, user) => {
+                return ['⬅️', '⬆️'].includes(reaction.emoji.name) && user.id === interaction.user.id;
+            };
+            
+            sentEmbed.awaitReactions({ filter, max: 1, time: 30000, errors: ['time'] })
+                .then(collected => {
+                    const reaction = collected.first();
+            
+                    if (reaction.emoji.name === '⬅️') {
+                        message.reply('You reacted with a ⬅️.');
+                    } else {
+                        message.reply('You reacted with a ⬆️.');
+                    }
+                }).catch(collected => {
+                    message.reply('You reacted with neither a thumbs up, nor a thumbs down.');
+                }); */
         });
     }
 }
