@@ -9,7 +9,7 @@ module.exports = {
         .addFields(
             {name: 'help', value: 'Displays this embed'},
             {name: 'play', value: 'Starts a new game'},
-            {name: 'stop', value: 'Stops the users currently active game'},
+            {name: 'stop', value: "Stops the user's currently active game"},
             {name: 'Saves', value: "The bot doesn't save game progress, but it does however save game items. **You can use this to your advantage**"}
         )
 

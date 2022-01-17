@@ -27,6 +27,18 @@ client.on('message', async message => {
         client.commands.get('help').execute(message, args, Discord);
     } else if(command === 'play'){
         client.commands.get('play').execute(message, args, Discord);
+    } else if(command === 'eval'){
+        message.reply("sorry, I don't have such a command")
+    } else if(command === 'exec'){
+        message.reply("sorry, I don't have such a command")
+    }else if(command === 'evaluate'){
+        message.reply("sorry, I don't have such a command")
+    }else if(command === 'calc'){
+        message.reply("sorry, I don't have such a command")
+    }else if(command === 'serverlist'){
+        message.reply("sorry, I don't have such a command")
+    }else if(command === 'guilds'){
+        message.reply("sorry, I don't have such a command")
     }
 })
 

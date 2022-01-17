@@ -10,14 +10,15 @@ module.exports = {
         .setColor('RANDOM')
         .setTitle('@' + message.author.username + "'s Game")
         .addFields(
-            {name: 'Idling', value: bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
+            {name: '\n', value: bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + idle + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
             + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + '\n' 
-            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg}
+            + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg + bg},
+            {name: 'Controls', value: "Use the emoji's below to play, use `hit!stop` to quit!"}
         )
         .setFooter('HiT World 2t Bot')
 
